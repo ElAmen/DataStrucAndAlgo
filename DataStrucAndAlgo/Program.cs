@@ -27,54 +27,6 @@ namespace DataStrucAndAlgo
 
 
 
-        ///// <summary>
-        ///// Generated xml data and print out xml string
-        ///// </summary>
-        ///// <param name="args"></param>
-        //static void Main(string[] args)
-        //{
-        //    string result;
-        //    var stream = new MemoryStream(); // The writer closes this for us
-        //    using (XmlTextWriter writer = new XmlTextWriter(stream, Encoding.UTF8))
-        //    {
-        //        writer.WriteStartDocument(true);
-        //        writer.Formatting = Formatting.Indented;
-        //        writer.Indentation = 2;
-        //        writer.WriteStartElement("Table");
-        //        createNode("1", "Product 1", "100", writer);
-        //        createNode("2", "Product 2", "200", writer);
-        //        createNode("3", "Product 3", "300", writer);
-        //        writer.WriteEndElement();
-        //        writer.WriteEndDocument();
-        //        writer.Flush();
-
-
-        //        StreamReader reader = new StreamReader(stream, Encoding.UTF8, true);
-        //        stream.Seek(0, SeekOrigin.Begin);
-        //        result = reader.ReadToEnd();
-
-        //    }
-
-
-        //    Console.WriteLine(result);
-        //    Console.WriteLine("XML File created ! ");
-        //}
-
-
-        //private static void createNode(string course_id,string courseName,string price, XmlTextWriter writer)
-        //{
-        //    writer.WriteStartElement("course");
-        //    writer.WriteStartElement("course_id");
-        //    writer.WriteString(course_id);
-        //    writer.WriteEndElement();
-        //    writer.WriteStartElement("courseName");
-        //    writer.WriteString(courseName);
-        //    writer.WriteEndElement();
-        //    writer.WriteStartElement("price");
-        //    writer.WriteString(price);
-        //    writer.WriteEndElement();
-        //    writer.WriteEndElement();
-        //}
 
 
         //static void Main(string[] args)
